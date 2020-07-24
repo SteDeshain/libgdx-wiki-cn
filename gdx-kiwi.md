@@ -1,0 +1,1 @@
+Kiwi is a Guava-inspired set of general utilities that make your life easier. It can be used in pretty much any LibGDX-related project, regardless of its purpose. It helps dealing with LibGDX custom collections, assets, actors and so on. See [the official page](https://github.com/czyzby/gdx-lml/tree/master/kiwi) for documentation.

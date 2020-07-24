@@ -1,0 +1,41 @@
+The instructions at http://developer.android.com/training/in-app-billing/preparing-iab-app.html do not quite match up with what is necessary in a libgdx gradle project.
+
+You can use a billing library (like https://github.com/libgdx/gdx-pay), but that may feel like overkill if you are only publishing to the google play store.
+
+So here are some modified steps to prepare your project (from a unix command line) with the standard google billing code as described in the google documentation.
+
+The first step is to add the interface definition to your project.
+
+```shell
+pushd $PROJECT
+mkdir -p android/src/com/android/vending/billing/
+cp $ANDROID_HOME/extras/google/play_billing/samples/TrivialDrive/src/com/android/vending/billing/IInAppBillingService.aidl android/src/com/android/vending/billing/
+./gradlew android:assembleRelease
+popd
+```
+
+If this has been successful, you should find the generated java source in 
+
+```shell
+$PROJECT/android/build/generated/source/aidl/release/com/android/vending/billing/IInAppBillingService.java
+```
+
+The next step is to add the "utils" from the example TrivialDrive project, and update their package
+
+```shell
+pushd $PROJECT
+mkdir -p android/src/$YOURPROJECTDIR/util
+cp $ANDROID_HOME/extras/google/play_billing/samples/TrivialDrive/src/com/example/android/trivialdrivesample/util/* android/src/$YOURPROJECTDIR/util
+sed -e 's/com.example.android.trivialdrivesample.util/$YOURPROJECTPACKAGE.util/g' -i'' android/src/$YOURPROJECTDIR/util/*.java
+popd
+```
+
+You can check that the magic sed file changing line worked by checking the diff output..
+
+```shell
+diff -u android/src/$YOURPROJECTDIR/util/ $ANDROID_HOME/extras/google/play_billing/samples/TrivialDrive/src/com/example/android/trivialdrivesample/util/
+```
+
+The only changed lines should be the package declarations.
+
+The project should now be prepared to use the IabHelper.

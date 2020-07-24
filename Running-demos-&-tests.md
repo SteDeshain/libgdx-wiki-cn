@@ -1,0 +1,1 @@
+**This page is deprecated. For up to date information, [go here instead](https://libgdx.badlogicgames.com/documentation/hacking/Working%20from%20source.html).**

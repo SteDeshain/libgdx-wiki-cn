@@ -1,0 +1,1 @@
+Swarm is an easy way to get your players connected. For an excellent tutorial on how to integrate Swarm with your libgdx application see http://swarmconnect.com/admin/docs/libgdx

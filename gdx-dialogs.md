@@ -1,0 +1,1 @@
+See the gdx-dialogs project: https://github.com/TomGrill/gdx-dialogs
