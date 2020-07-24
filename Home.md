@@ -1,152 +1,154 @@
-![logo](http://libgdx.badlogicgames.com/img/logo.png)
+![logo](./http://libgdx.badlogicgames.com/img/logo.png.md)
 
-Welcome to the Wiki, a place for comprehensive documentation on the LibGDX API and features.  This wiki is community driven, and can be edited by anyone. If you find information out of date, feel free to update yourself, or ask for clarification on the forums or the irc channel.
+Welcome to the Wiki, a place for comprehensive documentation on the LibGDX API and features.  This wiki is community driven, and can be edited by anyone. If you find information out of date, feel free to update yourself, or ask for clarification on the forums or the irc channel.  
+欢迎来到 wiki，这里几乎涵盖了所有的 LibGDX 的 API 接口和功能。本 wiki 是社区驱动的，并且可以被任何人编辑。如果你发现这里有些内容过时了，你自己可以随意更新，或者在论坛或 irc 内就相关内容进行询问。
 
-# [Official documentation](https://libgdx.badlogicgames.com/documentation/)
-If you want to get started coding with LibGDX, head to the [Official documentation - here - ](https://libgdx.badlogicgames.com/documentation/) to learn how to setup your environment and create/import your project.
+# [官方文档](https://libgdx.badlogicgames.com/documentation)
+If you want to get started coding with LibGDX, head to the [Official documentation - here - ](https://libgdx.badlogicgames.com/documentation/) to learn how to setup your environment and create/import your project.  
+如果你想开始编写 LibGDX 应用程序，请到[这里的官方文档](https://libgdx.badlogicgames.com/documentation/)去学习如何安装你的编程环境，以及如何创建/导入你的项目。
 
-## **[[Looking for help?|Getting Help]]**
+## **[寻求援助？](./Getting-Help.md)**
 
-  * **[[Wiki Style Guide]]**
-  * **Developer's Guide**
-    * [[The Application Framework]]
-      * [[The Life-Cycle]]
-      * [[Modules Overview]]
-      * [[Starter Classes and Configuration]]
-      * [[Querying]]
-      * [[Logging]]
-      * [[Threading]]
-      * [[Interfacing With Platform-Specific Code]]
-    * [[A Simple Game]]
-      * [[Extending the Simple Game]]
-    * [[File Handling]]
-    * [[Networking]]
-    * [[Preferences]]
-    * [[Input Handling]]
-      * [[Configuration & Querying]]
-      * [[Mouse, Touch and Keyboard]]
-        * [[Polling]]
-        * [[Event Handling]]
-      * [[Controllers]]
-      * [[Gesture Detection]]
-      * [[Simple Text Input]]
-      * [[Accelerometer]]
-      * [[Compass]]
-      * [[Gyroscope]]
-      * [[Vibrator]]
-      * [[Cursor Visibility & Catching]]
-      * [[Back and Menu Key Catching]]
-      * [[On-Screen Keyboard]]
-    * [[Memory Management]]
-    * [[Audio]]
-      * [[Sound Effects]]
-      * [[Streaming Music]]
-      * [[Playing PCM Audio]]
-      * [[Recording PCM Audio]]
-    * [[Graphics]]
-      * [[Querying & configuring graphics (monitors, display modes, vsync)]]
-      * [[Continuous & Non-Continuous Rendering]]
-      * [[Clearing the Screen]]
-      * [[Taking a Screenshot]]
-      * [[Profiling]]
-      * [[Viewports]]
-      * [[OpenGL ES Support]]
-        * Configuration & Querying OpenGL ??
-        * Direct Access ??
-        * Utility Classes
-          * [[Rendering Shapes]]
-          * [[Textures & TextureRegions]]
-          * [[Meshes]]
-          * [[Shaders]]
-          * [[Frame Buffer Objects]]
-      * 2D Graphics
-        * [[SpriteBatch, TextureRegions, and Sprites]]
-        * [[2D Animation]]
-        * [[Clipping, With the Use of ScissorStack]]
-        * [[Orthographic Camera]]
-        * Mapping Touch Coordinates ??
-        * [[NinePatches]]
-        * [[Bitmap Fonts]]
-          * [[Distance Field Fonts]]
-          * [[Color Markup Language]]
-        * [[Using TextureAtlases]]
-        * [[Pixmaps]]
-        * [[Packing Atlases Offline]]
-        * [[Packing Atlases at Runtime]]
-        * [[Texture Compression]]
-        * [[2D ParticleEffects]]
-        * [[Tile Maps]]
-        * [[scene2d]]
-          * [[scene2d.ui]]
-            * [[Table]]
-          * [[Skin]]
-      * [[3D Graphics]]
-        * [[Quick Start]]
-        * [[Models]]
-        * [[Material and Environment]]
-        * [[ModelBatch]]
-        * [[ModelCache]]
-        * [[ModelBuilder, MeshBuilder and MeshPartBuilder]]
-        * [[3D Animations and Skinning]]
-        * [[Importing Blender Models in libGDX]]
-        * [[3D Particle Effects]]
-        * Perspective Camera ??
-        * Picking ??
-    * [[Managing Your Assets]]
-    * [[Internationalization and Localization]]
+  * **[wiki 风格的手册](./Wiki-Style-Guide.md)**
+  * **开发者手册**
+    * [应用框架](./The-Application-Framework.md)
+      * [生命周期](./The-Life-Cycle.md)
+      * [模块预览](./Modules-Overview.md)
+      * [启动类及其设置](./Starter-Classes-and-Configuration.md)
+      * [状态查询](./Querying.md)
+      * [记录日志](./Logging.md)
+      * [线程](./Threading.md)
+      * [平台相关的接口](./Interfacing-With-Platform-Specific-Code.md)
+    * [一个简单的游戏](./A-Simple-Game.md)
+      * [扩展这个简单的游戏](./Extending-the-Simple-Game.md)
+    * [文件系统](./File-Handling.md)
+    * [网络](./Networking.md)
+    * [Preferences](./Preferences.md)
+    * [处理输入](./Input-Handling.md)
+      * [设置和查询](./Configuration-&-Querying.md)
+      * [鼠标，触摸屏和键盘](./Mouse,-Touch-and-Keyboard.md)
+        * [Polling](./Polling.md)
+        * [处理输入事件](./Event-Handling.md)
+      * [手柄](./Controllers.md)
+      * [手势检测](./Gesture-Detection.md)
+      * [简单的文字输入](./Simple-Text-Input.md)
+      * [加速器](./Accelerometer.md)
+      * [指南针](./Compass.md)
+      * [陀螺仪](./Gyroscope.md)
+      * [振动器](./Vibrator.md)
+      * [光标的可见性及捕获光标](./Cursor-Visibility-&-Catching.md)
+      * [返回键和菜单键](./Back-and-Menu-Key-Catching.md)
+      * [手机的屏幕键盘](./On-Screen-Keyboard.md)
+    * [内存管理](./Memory-Management.md)
+    * [音频](./Audio.md)
+      * [音效](./Sound-Effects.md)
+      * [音乐](./Streaming-Music.md)
+      * [播放 PCM 音频](./Playing-PCM-Audio.md)
+      * [录制 PCM 音频](./Recording-PCM-Audio.md)
+    * [图像](./Graphics.md)
+      * [对图像进行有关的查询和设置(显示器，显示模式，垂直同步)](./Querying-&-configuring-graphics-(monitors,-display-modes,-vsync).md)
+      * [连续渲染和非连续渲染](./Continuous-&-Non-Continuous-Rendering.md)
+      * [清除屏幕](./Clearing-the-Screen.md)
+      * [截屏](./Taking-a-Screenshot.md)
+      * [性能分析](./Profiling.md)
+      * [Viewports](./Viewports.md)
+      * [OpenGL ES 的支持](./OpenGL-ES-Support.md)
+        * 对 OpenGL 进行设置及查询 ??
+        * 直接操作 OpenGL ES ??
+        * 工具类
+          * [渲染形状](./Rendering-Shapes.md)
+          * [纹理(Textures)和纹理区域(TextureRegions)](./Textures-&-TextureRegions.md)
+          * [网格(Meshes)](./Meshes.md)
+          * [着色器(Shaders)](./Shaders.md)
+          * [帧缓存对象(FBO)](./Frame-Buffer-Objects.md)
+      * 2D 图像
+        * [画笔(SpriteBatch), 纹理区域(TextureRegions)和精灵(Sprites)](./SpriteBatch,-TextureRegions,-and-Sprites.md)
+        * [2D 动画](./2D-Animation.md)
+        * [使用 ScissorStack 进行裁剪](./Clipping,-With-the-Use-of-ScissorStack.md)
+        * [正交摄像机](./Orthographic-Camera.md)
+        * 对触摸坐标进行映射 ??
+        * [NinePatches](./NinePatches.md)
+        * [位图字体](./Bitmap-Fonts.md)
+          * [距离场字体(Distance Field Fonts)](./Distance-Field-Fonts.md)
+          * [色彩标记语言](./Color-Markup-Language.md)
+        * [使用纹理集(TextureAtlases)](./Using-TextureAtlases.md)
+        * [Pixmaps](./Pixmaps.md)
+        * [离线打包纹理集](./Packing-Atlases-Offline.md)
+        * [运行时打包纹理集](./Packing-Atlases-at-Runtime.md)
+        * [压缩纹理](./Texture-Compression.md)
+        * [2D 粒子效果](./2D-ParticleEffects.md)
+        * [Tile Maps](./Tile-Maps.md)
+        * [2D 场景(scene2d)](./scene2d.md)
+          * [2D UI 场景(scene2d.ui)](./scene2d.ui.md)
+            * [Table](./Table.md)
+          * [皮肤](./Skin.md)
+      * [3D 图像](./3D-Graphics.md)
+        * [快速上手](./Quick-Start.md)
+        * [模型(Models)](./Models.md)
+        * [材质和环境](./Material-and-Environment.md)
+        * [ModelBatch](./ModelBatch.md)
+        * [模型缓存](./ModelCache.md)
+        * [TODO](./ModelBuilder,-MeshBuilder-and-MeshPartBuilder.md)
+        * [3D 动画和蒙皮](./3D-Animations-and-Skinning.md)
+        * [TODO](./Importing-Blender-Models-in-libGDX.md)
+        * [3D 粒子效果](./3D-Particle-Effects.md)
+        * 透视摄像机 ??
+        * TODO Picking ??
+    * [a](./Managing-Your-Assets.md)
+    * [a](./Internationalization-and-Localization.md)
     * Utilities
-      * [[Reading and Writing JSON]]
-      * [[Reading and Writing XML]]
-      * [[Collections]]
-      * [[Reflection]]
-      * [[jnigen]]
-    * [[Math Utilities]]
-      * [[Interpolation]]
-      * [[Vectors, Matrices, Quaternions]]
-      * [[Circles, Planes, Rays, etc.]]
-      * [[Path Interface and Splines]]
+      * [a](./Reading-and-Writing-JSON.md)
+      * [a](./Reading-and-Writing-XML.md)
+      * [a](./Collections.md)
+      * [a](./Reflection.md)
+      * [a](./jnigen.md)
+    * [a](./Math-Utilities.md)
+      * [a](./Interpolation.md)
+      * [a](./Vectors,-Matrices,-Quaternions.md)
+      * [a](./Circles,-Planes,-Rays,-etc..md)
+      * [a](./Path-Interface-and-Splines.md)
       * Bounding Volumes ??
       * Intersection & Overlap Testing ??
     * Tools
-      * [[Texture Packer]]
-      * [[Hiero]]
-      * [[2D Particle Editor]]
-      * [[Path Editor]]
+      * [a](./Texture-Packer.md)
+      * [a](./Hiero.md)
+      * [a](./2D-Particle-Editor.md)
+      * [a](./Path-Editor.md)
     * Extensions
-      * [[Artificial Intelligence]]
-      * [[gdx-freetype]]
-      * [[gdx-pay]]: cross-platform In-App-Purchasing API
-      * [[Physics]]
-        * [[Box2D]]    
-        * [[Bullet Physics]]
-          * [[Setup|Bullet Wrapper - Setup]]
-          * [[Using the Wrapper|Bullet Wrapper - Using the wrapper]]
-          * [[Using Models|Bullet Wrapper - Using models]]
-          * [[Contact Callbacks|Bullet Wrapper - Contact callbacks]]
-          * [[Custom Classes|Bullet Wrapper - Custom classes]]
-          * [[Debugging|Bullet Wrapper - Debugging]]
-    * [[Using libGDX With Other JVM Languages]]
-      * [[Using libGDX With Clojure]]
-      * [[Using libGDX With Kotlin]]
-      * [[Using libGDX With Python]]
-      * [[Using libGDX With Scala]]
-    * [[Third Party Services]]
-      * [[AdMob in libGDX]]
-      * [[Airpush in libGDX]]
-      * [[Swarm in libGDX]]
-      * [[NextPeer in libGDX]]
-      * [[Google Play Games Services in libGDX]]
-      * [[ProGuard/DexGuard and libGDX]]
-      * [[Excelsior JET and libGDX]]
+      * [a](./Artificial-Intelligence.md)
+      * [a](./gdx-freetype.md)
+      * [a](./gdx-pay.md):-cross-platform-In-App-Purchasing-API
+      * [a](./Physics.md)
+        * [a](./Box2D.md)----
+        * [a](./Bullet-Physics.md)
+          * [a](./Setup|Bullet-Wrapper---Setup.md)
+          * [a](./Using-the-Wrapper|Bullet-Wrapper---Using-the-wrapper.md)
+          * [a](./Using-Models|Bullet-Wrapper---Using-models.md)
+          * [a](./Contact-Callbacks|Bullet-Wrapper---Contact-callbacks.md)
+          * [a](./Custom-Classes|Bullet-Wrapper---Custom-classes.md)
+          * [a](./Debugging|Bullet-Wrapper---Debugging.md)
+    * [a](./Using-libGDX-With-Other-JVM-Languages.md)
+      * [a](./Using-libGDX-With-Clojure.md)
+      * [a](./Using-libGDX-With-Kotlin.md)
+      * [a](./Using-libGDX-With-Python.md)
+      * [a](./Using-libGDX-With-Scala.md)
+    * [a](./Third-Party-Services.md)
+      * [a](./AdMob-in-libGDX.md)
+      * [a](./Airpush-in-libGDX.md)
+      * [a](./Swarm-in-libGDX.md)
+      * [a](./NextPeer-in-libGDX.md)
+      * [a](./Google-Play-Games-Services-in-libGDX.md)
+      * [a](./ProGuard/DexGuard-and-libGDX.md)
+      * [a](./Excelsior-JET-and-libGDX.md)
   * Articles
-    * [[Getting Help]]
-    * [[External Tutorials]]
-    * [[Bundling a JRE]]
-    * [[Deploying as an Applet]]
-    * [[Getting ready for #libGDXJAM]]
-    * [[Coordinate systems]]
-    * [[Updating Your libGDX Version|Updating libGDX]]
-    * [[Adding Extensions and 3rd Party Libraries|Dependency management with Gradle]]
-    * [[Publishing Your Own Extensions Via the Setup Application|Third Party Extension Support]] 
-    * [[Improving Your Gradle Workflow|Improving-workflow-with-Gradle]]
-    * [[Creating Asset Project in Eclipse|Creating-a-Separate-Assets-Project-in-Eclipse]] 
+    * [a](./Getting-Help.md)
+    * [a](./External-Tutorials.md)
+    * [a](./Bundling-a-JRE.md)
+    * [a](./Deploying-as-an-Applet.md)
+    * [a](./Getting-ready-for-#libGDXJAM.md)
+    * [a](./Coordinate-systems.md)
+    * [a](./Updating-Your-libGDX-Version|Updating-libGDX.md)
+    * [a](./Adding-Extensions-and-3rd-Party-Libraries|Dependency-management-with-Gradle.md)
+    * [a](./Publishing-Your-Own-Extensions-Via-the-Setup-Application|Third-Party-Extension-Support.md)-
+    * [a](./Improving-Your-Gradle-Workflow|Improving-workflow-with-Gradle.md)
+    * [a](./Creating-Asset-Project-in-Eclipse|Creating-a-Separate-Assets-Project-in-Eclipse.md)-
