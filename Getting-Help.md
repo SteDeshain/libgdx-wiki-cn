@@ -1,8 +1,9 @@
-The libgdx community is glad to help you when you get stuck or encounter a bug, but first you must make it as easy to help you as possible.
+The libgdx community is glad to help you when you get stuck or encounter a bug, but first you must make it as easy to help you as possible.  
+当你遇到困难或 bug 时，libgdx 社区非常乐意伸出援手，但首先你应该知道如何高效地获得帮助
 
-## Contents
+## 内容
 
- * [Helping Yourself](#helping-yourself)
+ * [自己查找解决办法](#helping-yourself)
  * [Topic Title](#top-title)
  * [Context](#context)
  * [Relevance](#relevance)
@@ -18,14 +19,14 @@ The libgdx community is glad to help you when you get stuck or encounter a bug, 
  * [Attitude](#attitude)
  * [Formatting](#formatting)
 
-## <a id="Helping_Yourself"></a>Helping Yourself ##
+## <a id="Helping_Yourself"></a>自己查找解决办法 ##
 
-Please go through this short checklist to be sure you haven't missed an easy to find solution.
+请先看看下面几条建议，你可能会找到问题的解决办法
 
-  * Are you using the latest [nightly build](http://libgdx.badlogicgames.com/download.html)? Please try that first, as issues are being fixed every single day.
-  * Have you read the documentation on the [[Table of Contents | Home]])? It can also be very helpful to look at the [Javadocs](http://libgdx.badlogicgames.com/nightlies/docs/api/) and [source code](https://github.com/libgdx/libgdx) (don't be shy!). Search the [tests](https://github.com/libgdx/libgdx/tree/master/tests/gdx-tests/src/com/badlogic/gdx/tests) for a specific class to find example code.
-  * Have you [searched the forum](http://www.badlogicgames.com/forum/search.php) for your problem?
-  * Have you [searched the issue tracker](https://github.com/libgdx/libgdx/issues) for your problem? Be sure to search "All issues", not just "Open issues".
+  * 你有没有在用 libgdx 最新的 [nightly 版本](http://libgdx.badlogicgames.com/download.html)？你可以试一试，因为我们每天都在修 bug。
+  * 你可以先浏览一遍[wiki 主页](./Home.md)上的条目。也可以去查找官方的 [API 文档](http://libgdx.badlogicgames.com/nightlies/docs/api/)或参考[源码](https://github.com/libgdx/libgdx)。也可以在[这里](https://github.com/libgdx/libgdx/tree/master/tests/gdx-tests/src/com/badlogic/gdx/tests)搜索具体类的示例代码
+  * 你可以试试在论坛内[搜索](http://www.badlogicgames.com/forum/search.php)你的问题
+  * 你可以在[issue tracker](https://github.com/libgdx/libgdx/issues)搜索你的问题。注意要在所有的问题(All issues)中搜索，不要只搜索仍然开放的问题(Open issues)
 
 If you still have a problem, often the fastest way to get help is the libgdx chat room. Usually it has ~100 people, any one of which could answer your question right now. The chat room is [#libgdx on irc.freenode.net](irc://irc.freenode.net/libgdx).
 

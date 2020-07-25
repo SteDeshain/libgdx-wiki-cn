@@ -1,10 +1,12 @@
-![logo](./http://libgdx.badlogicgames.com/img/logo.png.md)
+原文链接:[https://github.com/libgdx/libgdx/wiki/home](https://github.com/libgdx/libgdx/wiki/home)
 
-Welcome to the Wiki, a place for comprehensive documentation on the LibGDX API and features.  This wiki is community driven, and can be edited by anyone. If you find information out of date, feel free to update yourself, or ask for clarification on the forums or the irc channel.  
-欢迎来到 wiki，这里几乎涵盖了所有的 LibGDX 的 API 接口和功能。本 wiki 是社区驱动的，并且可以被任何人编辑。如果你发现这里有些内容过时了，你自己可以随意更新，或者在论坛或 irc 内就相关内容进行询问。
+---
+
+![logo](./http://libgdx.badlogicgames.com/img/logo.png.md)
+ 
+欢迎来到 wiki，这里几乎涵盖了 LibGDX 所有的 API 接口和功能。本 wiki 是社区驱动的，任何人都可以编辑。如果你发现这里有些内容过时了，你自己可以随意更新(译注：当然是在原 [wiki](https://github.com/libgdx/libgdx/wiki) 内)，或者在论坛或 irc 内就相关内容进行询问。
 
 # [官方文档](https://libgdx.badlogicgames.com/documentation)
-If you want to get started coding with LibGDX, head to the [Official documentation - here - ](https://libgdx.badlogicgames.com/documentation/) to learn how to setup your environment and create/import your project.  
 如果你想开始编写 LibGDX 应用程序，请到[这里的官方文档](https://libgdx.badlogicgames.com/documentation/)去学习如何安装你的编程环境，以及如何创建/导入你的项目。
 
 ## **[寻求援助？](./Getting-Help.md)**
@@ -88,67 +90,67 @@ If you want to get started coding with LibGDX, head to the [Official documentati
         * [材质和环境](./Material-and-Environment.md)
         * [ModelBatch](./ModelBatch.md)
         * [模型缓存](./ModelCache.md)
-        * [TODO](./ModelBuilder,-MeshBuilder-and-MeshPartBuilder.md)
+        * [ModelBuilder, MeshBuilder 和 MeshPartBuilder](./ModelBuilder,-MeshBuilder-and-MeshPartBuilder.md)
         * [3D 动画和蒙皮](./3D-Animations-and-Skinning.md)
-        * [TODO](./Importing-Blender-Models-in-libGDX.md)
+        * [导入 Blender 的模型](./Importing-Blender-Models-in-libGDX.md)
         * [3D 粒子效果](./3D-Particle-Effects.md)
         * 透视摄像机 ??
-        * TODO Picking ??
-    * [a](./Managing-Your-Assets.md)
-    * [a](./Internationalization-and-Localization.md)
-    * Utilities
-      * [a](./Reading-and-Writing-JSON.md)
-      * [a](./Reading-and-Writing-XML.md)
-      * [a](./Collections.md)
-      * [a](./Reflection.md)
-      * [a](./jnigen.md)
-    * [a](./Math-Utilities.md)
-      * [a](./Interpolation.md)
-      * [a](./Vectors,-Matrices,-Quaternions.md)
-      * [a](./Circles,-Planes,-Rays,-etc..md)
-      * [a](./Path-Interface-and-Splines.md)
+        * 拾取(Picking) ??
+    * [管理游戏资源](./Managing-Your-Assets.md)
+    * [国际化和本地化](./Internationalization-and-Localization.md)
+    * 工具
+      * [读写 JSON 文件](./Reading-and-Writing-JSON.md)
+      * [读写 XML 文件](./Reading-and-Writing-XML.md)
+      * [集合](./Collections.md)
+      * [反射](./Reflection.md)
+      * [jnigen](./jnigen.md)
+    * [数学工具](./Math-Utilities.md)
+      * [插值](./Interpolation.md)
+      * [向量，矩阵和四元数](./Vectors,-Matrices,-Quaternions.md)
+      * [圆，平面，射线等](./Circles,-Planes,-Rays,-etc..md)
+      * [Path-Interface-and-Splines](./Path-Interface-and-Splines.md)
       * Bounding Volumes ??
       * Intersection & Overlap Testing ??
     * Tools
-      * [a](./Texture-Packer.md)
-      * [a](./Hiero.md)
-      * [a](./2D-Particle-Editor.md)
-      * [a](./Path-Editor.md)
+      * [Texture-Packer](./Texture-Packer.md)
+      * [Hiero](./Hiero.md)
+      * [2D-Particle-Editor](./2D-Particle-Editor.md)
+      * [Path-Editor](./Path-Editor.md)
     * Extensions
-      * [a](./Artificial-Intelligence.md)
-      * [a](./gdx-freetype.md)
-      * [a](./gdx-pay.md):-cross-platform-In-App-Purchasing-API
-      * [a](./Physics.md)
-        * [a](./Box2D.md)----
-        * [a](./Bullet-Physics.md)
-          * [a](./Setup|Bullet-Wrapper---Setup.md)
-          * [a](./Using-the-Wrapper|Bullet-Wrapper---Using-the-wrapper.md)
-          * [a](./Using-Models|Bullet-Wrapper---Using-models.md)
-          * [a](./Contact-Callbacks|Bullet-Wrapper---Contact-callbacks.md)
-          * [a](./Custom-Classes|Bullet-Wrapper---Custom-classes.md)
-          * [a](./Debugging|Bullet-Wrapper---Debugging.md)
-    * [a](./Using-libGDX-With-Other-JVM-Languages.md)
-      * [a](./Using-libGDX-With-Clojure.md)
-      * [a](./Using-libGDX-With-Kotlin.md)
-      * [a](./Using-libGDX-With-Python.md)
-      * [a](./Using-libGDX-With-Scala.md)
-    * [a](./Third-Party-Services.md)
-      * [a](./AdMob-in-libGDX.md)
-      * [a](./Airpush-in-libGDX.md)
-      * [a](./Swarm-in-libGDX.md)
-      * [a](./NextPeer-in-libGDX.md)
-      * [a](./Google-Play-Games-Services-in-libGDX.md)
-      * [a](./ProGuard/DexGuard-and-libGDX.md)
-      * [a](./Excelsior-JET-and-libGDX.md)
+      * [Artificial-Intelligence](./Artificial-Intelligence.md)
+      * [gdx-freetype](./gdx-freetype.md)
+      * [gdx-pay](./gdx-pay.md): cross-platform In-App-Purchasing API
+      * [Physics](./Physics.md)
+        * [Box2D](./Box2D.md)
+        * [Bullet-Physics](./Bullet-Physics.md)
+          * [Setup](./Bullet-Wrapper-Setup.md)
+          * [Using-the-Wrapper](./Bullet-Wrapper-Using-the-wrapper.md)
+          * [Using-Models](./Bullet-Wrapper-Using-models.md)
+          * [Contact-Callbacks](./Bullet-Wrapper-Contact-callbacks.md)
+          * [Custom-Classes](./Bullet-Wrapper-Custom-classes.md)
+          * [Debugging](./Bullet-Wrapper-Debugging.md)
+    * [Using-libGDX-With-Other-JVM-Languages](./Using-libGDX-With-Other-JVM-Languages.md)
+      * [Using-libGDX-With-Clojure](./Using-libGDX-With-Clojure.md)
+      * [Using-libGDX-With-Kotlin](./Using-libGDX-With-Kotlin.md)
+      * [Using-libGDX-With-Python](./Using-libGDX-With-Python.md)
+      * [Using-libGDX-With-Scala](./Using-libGDX-With-Scala.md)
+    * [Third-Party-Services](./Third-Party-Services.md)
+      * [AdMob-in-libGDX](./AdMob-in-libGDX.md)
+      * [Airpush-in-libGDX](./Airpush-in-libGDX.md)
+      * [Swarm-in-libGDX](./Swarm-in-libGDX.md)
+      * [NextPeer-in-libGDX](./NextPeer-in-libGDX.md)
+      * [Google-Play-Games-Services-in-libGDX](./Google-Play-Games-Services-in-libGDX.md)
+      * [ProGuard/DexGuard-and-libGDX](./ProGuard/DexGuard-and-libGDX.md)
+      * [Excelsior-JET-and-libGDX](./Excelsior-JET-and-libGDX.md)
   * Articles
-    * [a](./Getting-Help.md)
-    * [a](./External-Tutorials.md)
-    * [a](./Bundling-a-JRE.md)
-    * [a](./Deploying-as-an-Applet.md)
-    * [a](./Getting-ready-for-#libGDXJAM.md)
-    * [a](./Coordinate-systems.md)
-    * [a](./Updating-Your-libGDX-Version|Updating-libGDX.md)
-    * [a](./Adding-Extensions-and-3rd-Party-Libraries|Dependency-management-with-Gradle.md)
-    * [a](./Publishing-Your-Own-Extensions-Via-the-Setup-Application|Third-Party-Extension-Support.md)-
-    * [a](./Improving-Your-Gradle-Workflow|Improving-workflow-with-Gradle.md)
-    * [a](./Creating-Asset-Project-in-Eclipse|Creating-a-Separate-Assets-Project-in-Eclipse.md)-
+    * [Getting-Help](./Getting-Help.md)
+    * [External-Tutorials](./External-Tutorials.md)
+    * [Bundling-a-JRE](./Bundling-a-JRE.md)
+    * [Deploying-as-an-Applet](./Deploying-as-an-Applet.md)
+    * [Getting-ready-for-#libGDXJAM](./Getting-ready-for-libGDXJAM.md)
+    * [Coordinate-systems](./Coordinate-systems.md)
+    * [Updating-Your-libGDX-Version](./Updating-libGDX.md)
+    * [Adding-Extensions-and-3rd-Party-Libraries](./Dependency-management-with-Gradle.md)
+    * [Publishing-Your-Own-Extensions-Via-the-Setup-Application](./Third-Party-Extension-Support.md)
+    * [Improving-Your-Gradle-Workflow|](./Improving-workflow-with-Gradle.md)
+    * [Creating-Asset-Project-in-Eclipse](./Creating-a-Separate-Assets-Project-in-Eclipse.md)
