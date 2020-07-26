@@ -1,4 +1,3 @@
-The libgdx community is glad to help you when you get stuck or encounter a bug, but first you must make it as easy to help you as possible.  
 当你遇到困难或 bug 时，libgdx 社区非常乐意伸出援手，但首先你应该知道如何高效地获得帮助
 
 ## 内容
@@ -28,16 +27,16 @@ The libgdx community is glad to help you when you get stuck or encounter a bug, 
   * 你可以试试在论坛内[搜索](http://www.badlogicgames.com/forum/search.php)你的问题
   * 你可以在[issue tracker](https://github.com/libgdx/libgdx/issues)搜索你的问题。注意要在所有的问题(All issues)中搜索，不要只搜索仍然开放的问题(Open issues)
 
-If you still have a problem, often the fastest way to get help is the libgdx chat room. Usually it has ~100 people, any one of which could answer your question right now. The chat room is [#libgdx on irc.freenode.net](irc://irc.freenode.net/libgdx).
+如果你的问题还没有解决，通常最快的方法就是去 libgdx 的聊天室。一般聊天室内会有不到100个人在线，他们都可以回答你的问题。聊天室在这里 [#libgdx on irc.freenode.net](irc://irc.freenode.net/libgdx)。
 
-Another way of getting help is the [libgdx discord](https://discord.gg/6pgDK9F).
+另一个可以寻求帮助的地方就是 [libgdx discord](https://discord.gg/6pgDK9F)。
 
-Otherwise, if you wish to post on the [forum](http://www.badlogicgames.com/forum/) or [post a new issue](https://github.com/libgdx/libgdx/blob/master/CONTRIBUTING.md) on the [tracker](https://github.com/libgdx/libgdx/issues), keep reading.
+除此之外，如果你想在[论坛](http://www.badlogicgames.com/forum/)内发帖，或在 [tracker](https://github.com/libgdx/libgdx/issues) 内发起一个新的问题，请往下阅读。
 
-## <a id="Help_us_help_you"></a>Help Us Help You ##
-If you believe your issue, error, or suspected bug is related to a specific backend, please present the following information with your issue. If you are on IRC have the following information on hand.
+## <a id="Help_us_help_you"></a>让我们更好的帮助你 ##
+如果你确信你的问题，错误或疑似 bug 是平台相关的，请在展示你的问题时，一并带上以下的信息。如果你正在 IRC 内，也请准备好以下的信息。
 
-**For Android backend issues**
+**Android 平台上的问题**
  - **Note:** Android issues can sometimes be more difficult due to device manufactures breaking things or buggy drivers.
 
 - **Note 2:** LibGDX only works completely on the Android Runtime (ART) on devices running the Android L developer preview and higher. Some functions will not work on the ART builds in 4.4.x due to an issue in ART that was fixed and included in the L developer preview.

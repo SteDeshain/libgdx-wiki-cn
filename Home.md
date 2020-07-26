@@ -2,7 +2,7 @@
 
 ---
 
-![logo](./http://libgdx.badlogicgames.com/img/logo.png.md)
+![logo](http://libgdx.badlogicgames.com/img/logo.png)
  
 欢迎来到 wiki，这里几乎涵盖了 LibGDX 所有的 API 接口和功能。本 wiki 是社区驱动的，任何人都可以编辑。如果你发现这里有些内容过时了，你自己可以随意更新(译注：当然是在原 [wiki](https://github.com/libgdx/libgdx/wiki) 内)，或者在论坛或 irc 内就相关内容进行询问。
 
